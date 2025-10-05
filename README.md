@@ -1,44 +1,89 @@
-# fusion-vue-tailwind-starter
+# Himalayan Shilajit - Premium Export Website
 
-This template should help get you started developing with Vue 3 in Vite.
+A professional, modern website for exporting premium Himalayan Shilajit products worldwide. Built with Vue.js 3, TypeScript, and TailwindCSS for optimal performance and user experience.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### **Product Showcase**
+- **4 Shilajit Variants**: Resin, Capsules, Powder, and Honey Sticks
+- **Image Sliders**: Multiple product images with smooth navigation
+- **Detailed Specifications**: Dosage, potency, and origin information
+- **Benefits Breakdown**: Comprehensive health benefits with scientific backing
 
-## Type Support for `.vue` Imports in TS
+### **Manufacturing Excellence**
+- **Video Gallery**: Real manufacturing and packaging process videos
+- **Quality Assurance**: Lab testing and GMP certification highlights
+- **Production Scale**: 3200kg resin production capabilities
+- **Facility Tours**: State-of-the-art manufacturing plant showcase
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### **User Experience**
+- **Responsive Design**: Perfect on desktop, tablet, and mobile
+- **Smooth Animations**: Professional transitions and hover effects
+- **Fast Loading**: Optimized images and efficient code structure
+- **SEO Optimized**: Proper meta tags and semantic HTML
 
-## Customize configuration
+### **Contact & Communication**
+- **Multiple Contact Methods**: Email, WhatsApp, and contact form
+- **Floating WhatsApp**: Always-accessible chat button
+- **Detailed Contact Form**: Inquiry categorization and validation
+- **B2B Focus**: Bulk order and export inquiry support
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tech Stack
 
-## Project Setup
+- **Frontend**: Vue 3.5.17 + TypeScript + Composition API
+- **Styling**: TailwindCSS 3.4.11 with custom components
+- **Build Tool**: Vite 7 for fast development and optimized builds
+- **Testing**: Vitest + Vue Test Utils
+- **Code Quality**: ESLint 9 + Prettier
+- **Package Manager**: npm
 
-```sh
+## Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/aparajitverma/Exportingproducts.git
+cd Exportingproducts
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start development server
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Project Structure
 
-```sh
-npm run test:unit
 ```
+src/
+├── components/           # Vue components
+│   ├── Benefits.vue     # Health benefits section
+│   ├── ContactSection.vue # Contact form and information
+│   ├── HowToUse.vue     # Usage instructions for all variants
+│   ├── ImageSlider.vue  # Product image carousel
+│   ├── NavBar.vue       # Navigation header
+│   ├── ShilajitVideos.vue # Manufacturing videos
+│   ├── VideoGallery.vue # Video display component
+│   ├── VideoModal.vue   # Video lightbox
+│   └── WhatsAppFloat.vue # Floating WhatsApp button
+├── data/                # Data files
+│   └── variants.ts      # Product variant information
+├── assets/              # Static assets
+├── main.ts             # Application entry point
+└── App.vue             # Root component
 
-### Lint with [ESLint](https://eslint.org/)
+public/
+├── images/             # Product and marketing images
+├── videos/             # Manufacturing and process videos
+└── index.html          # HTML template
 
 ```sh
 npm run lint
